@@ -62,4 +62,4 @@ to deploy to GitHub pages type "npm run deploy"
 
 ## Live Application
 
-https://masynnay.github.io/React-Personal-Portfolio/
+ https://masynnay.github.io/React-Portfolio/

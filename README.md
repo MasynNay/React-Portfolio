@@ -20,6 +20,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ## Acceptance Criteria
 
+```md
 GIVEN a single-page application portfolio for a web developer
 WHEN I load the portfolio
 THEN I am presented with a page containing a header, a section for content, and a footer
@@ -45,6 +46,7 @@ WHEN I am presented with the Resume section
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+```
 
 ## Installation
 

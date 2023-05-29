@@ -11,7 +11,7 @@ export const Footer = () => {
         <Row className="align-items-center">
           <Col size={12} sm={6}>
             <div className="footerlogo">
-            <a href="/React-Personal-Portfolio"><img src={logo2} alt="Logo2"/></a>
+            <a href="/React-Portfolio"><img src={logo2} alt="Logo2"/></a>
             </div>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">

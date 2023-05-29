@@ -35,7 +35,7 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="/React-Personal-Portfolio">
+          <Navbar.Brand href="/React-Portfolio">
             <img src={logo} alt="Logo"/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -47,7 +47,7 @@ export const NavBar = () => {
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#project" className={activeLink === 'project' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('project')}>Portfolio</Nav.Link>
               <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('connect')}>Contact</Nav.Link>
-              <Nav.Link href="https://drive.google.com/file/d/1KZWDDZUNFz0HVwGGdy_7otpP9SP2Y3JX/view?usp=share_link" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')}>Resume</Nav.Link>
+              <Nav.Link href="https://drive.google.com/file/d/1SNPb-zoBvQsI93yTdDVWSdAQFtI2Onuu/view?usp=share_link" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')}>Resume</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">

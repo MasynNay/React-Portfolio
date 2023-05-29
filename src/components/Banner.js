@@ -81,8 +81,8 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    I am currently enrolled in a coding boot camp at the
-                    University of Utah, I would like to use the skills that I
+                    I graduated from a coding boot camp at the
+                    University of Utah in May, 2023. I would like to use the skills that I
                     have learned from this boot camp and apply them in a career
                     as a full-time web developer. In my spare time, I enjoy
                     spending quality time with my family, building computers,

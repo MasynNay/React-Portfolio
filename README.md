@@ -50,11 +50,23 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Installation
 
-Right click on the main directory and click "Open in integrated terminal" 
-type "npm i" to install dependencies
-type "npm run build" to build
-type "npm run start" to start
-to deploy to GitHub pages type "npm run deploy"
+To set up and run this project locally, follow these steps:
+
+1. **Open Integrated Terminal**
+   - Right-click on the main directory and select "Open in integrated terminal."
+
+2. **Install Dependencies**
+   - Run the command: `npm install`
+
+3. **Build the Project**
+   - Run the command: `npm run build`
+
+4. **Start the Development Server**
+   - Run the command: `npm start`
+
+5. **Deploy to GitHub Pages**
+   - Run the command: `npm run deploy`
+
 
 ## Application Demonstrations
 

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.426acf51.css",
-    "main.js": "/React-Portfolio/static/js/main.6eb25745.js",
+    "main.css": "/React-Portfolio/static/css/main.3ed8df56.css",
+    "main.js": "/React-Portfolio/static/js/main.a2b08253.js",
     "static/media/video1.mp4": "/React-Portfolio/static/media/video1.33ecd0d54bc1e10bfc11.mp4",
     "static/media/banner.png": "/React-Portfolio/static/media/banner.540ab87e63c95c57d288.png",
     "static/media/banner2.png": "/React-Portfolio/static/media/banner2.e48a31ae18f04f45675a.png",
@@ -24,11 +24,12 @@
     "static/media/nav2.svg": "/React-Portfolio/static/media/nav2.97ed8e7eef60d61ca469881dd6f34511.svg",
     "index.html": "/React-Portfolio/index.html",
     "static/media/nav1.svg": "/React-Portfolio/static/media/nav1.f49dc1c4e0fdf9f01690dfc43590d569.svg",
-    "main.426acf51.css.map": "/React-Portfolio/static/css/main.426acf51.css.map",
-    "main.6eb25745.js.map": "/React-Portfolio/static/js/main.6eb25745.js.map"
+    "static/media/game-icon.svg": "/React-Portfolio/static/media/game-icon.c84dabefd8901e56134a9f422174a99a.svg",
+    "main.3ed8df56.css.map": "/React-Portfolio/static/css/main.3ed8df56.css.map",
+    "main.a2b08253.js.map": "/React-Portfolio/static/js/main.a2b08253.js.map"
   },
   "entrypoints": [
-    "static/css/main.426acf51.css",
-    "static/js/main.6eb25745.js"
+    "static/css/main.3ed8df56.css",
+    "static/js/main.a2b08253.js"
   ]
 }

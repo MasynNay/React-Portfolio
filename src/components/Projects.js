@@ -96,11 +96,11 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">IT Accomplishments</Nav.Link>
+                        <Nav.Link eventKey="first">IT</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="second">
-                          Coding Accomplishments
+                          Coding
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>

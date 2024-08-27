@@ -136,12 +136,7 @@ export const Contact = () => {
                             onFormUpdate("message", e.target.value)
                           }
                         ></textarea>
-                        <button type="submit">
-                          <span>{buttonText}</span>
-                        </button>
-                      </Col>
-                      {status.message && (
-                        <Col>
+                         {status.message && (
                           <p
                             className={
                               status.success === false
@@ -151,8 +146,14 @@ export const Contact = () => {
                           >
                             {status.message}
                           </p>
-                        </Col>
                       )}
+                        <div className="button-container">
+                          <button type="submit">
+                            <span>{buttonText}</span>
+                          </button>
+                        </div>
+                      </Col>
+                     
                     </Row>
                   </form>
                 </div>

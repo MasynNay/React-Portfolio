@@ -568,7 +568,7 @@ video {
 /************ Projects Css ************/
 .contact {
   background-image: url(./assets/images/banner2.png);
-  padding: 75px 0 75px 0;
+  padding: 75px 0;
 }
 
 .contact img {
@@ -617,6 +617,12 @@ video {
   opacity: 0.8;
 }
 
+.contact form .button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
 .contact form button {
   background-color: #1d1d1d;
   color: white;
@@ -625,7 +631,6 @@ video {
   font-weight: 700;
   padding: 14px 48px;
   font-size: 18px;
-  margin-top: 25px;
   transition: 0.3s ease-in-out;
 }
 
@@ -642,6 +647,17 @@ video {
   width: 100%;
 }
 
+.contact form .status-message {
+  margin: 16px 0; /* Adjust spacing as needed */
+  text-align: center; /* Center the text if you like */
+}
+
+.contact form .status-message p {
+  margin: 0;
+  font-size: 16px; /* Adjust the font size if needed */
+  font-weight: 500;
+  line-height: 1.5em;
+}
 /************ Footer Css ************/
 .footer {
   background-image: url("./assets/images/footer.png");

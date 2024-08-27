@@ -1,7 +1,3 @@
-import gauge1 from "../assets/images/gauge1.svg";
-import gauge2 from "../assets/images/gauge2.svg";
-import gauge3 from "../assets/images/gauge3.svg";
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/images/color1.png";
 
@@ -33,41 +29,38 @@ export const Skills = () => {
             <div className="skill-bx zoom">
               <h2>Skills</h2>
               <p>
-                One of my biggest passions is learning new things. Some of my
-                following skills are as follows:<br></br>
-                <br></br> HTML5, CSS, JavaScript, Node, Express, MVC, ORM LAN,
-                Help Desk, VMWare, Operating Systems, Active Directory, Network
-                Support, Software Troubleshooting, Microsoft Windows, Linux,
-                MacOS, Technical Support, Software Testing, Disaster Recovery,
-                Citrix, Computer Hardware, TCP/IP, Information Security,
-                Microsoft Windows Server, DNS, WAN, VPN, Shell Scripting, VoIP,
-                Network Firewalls, SQL, iOS, Android, Adobe Photoshop, Adobe
-                After Effects, Adobe Illustrator, Desktop support, Customer
-                support, Graphic design, SharePoint, Ethernet,
-                Telecommunication, IT support, Google Suite, Google Docs, SCCM.
+                One of my greatest passions is learning and mastering new
+                skills. Here’s an overview of my expertise:
+                <br />
+                <br />
+                <b>Web Development:</b> HTML5, CSS, JavaScript, Node.js,
+                Express, MVC, ORM
+                <br />
+                <b>Graphic Design:</b> Adobe Photoshop, Adobe After Effects,
+                Adobe Illustrator
+                <br />
+                <b>Networking & Security:</b> TCP/IP, DNS, WAN, VPN, Information
+                Security, Network Firewalls
+                <br />
+                <b>Technical Support:</b> Microsoft Windows, Linux, MacOS, iOS,
+                Android
+                <br />
+                <b>Technical Skills:</b> LAN, VoIP, Ethernet
+                <br />
+                <b>Operating Systems:</b> Microsoft Windows, Windows Server,
+                Linux, MacOS
+                <br />
+                <b>Support & Troubleshooting:</b> Help Desk, Desktop Support, IT
+                Support
+                <br />
+                <b>Virtualization & Security:</b> VMware, Citrix, Disaster
+                Recovery
+                <br />
+                <b>Database & Scripting:</b> SQL, Shell Scripting
+                <br />
+                <b>Additional Tools:</b> SharePoint, Google Suite, Google Docs,
+                SCCM
               </p>
-              <Carousel
-                responsive={responsive}
-                infinite={true}
-                className="owl-carousel owl-theme skill-slider"
-              >
-                <div className="item">
-                  <img src={gauge1} alt="" />
-                  <h5>Web Development</h5>
-                </div>
-                <div className="item">
-                  <img src={gauge2} alt="" />
-                  <h5>App Development</h5>
-                </div>
-                <div className="item">
-                  <img src={gauge3} alt="" />
-                  <h5>Graphic Design</h5>
-                </div>
-                <div className="item">
-                  <img src={gauge1} alt="" />
-                  <h5>UI/UX Design</h5>
-                </div>
-              </Carousel>
             </div>
           </div>
         </div>

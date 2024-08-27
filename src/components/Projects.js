@@ -4,19 +4,35 @@ import project1 from "../assets/images/project1.png";
 import project2 from "../assets/images/project2.jpeg";
 import project3 from "../assets/images/project3.jpeg";
 import project4 from "../assets/images/project4.png";
+import itproject1 from "../assets/images/itproject1.PNG";
 import video from "../assets/images/video1.mp4";
 import placeholder from "../assets/images/placeholder.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
-  const projects = [
+  const projectsTab1 = [
+    {
+      title: "CompTIA A+ Certification",
+      description:
+        "I completed the CompTIA A+ certification in May, 2024. This certification is a great starting point for a career in IT and is a great way to learn the basics of computer hardware, software, and networking.",
+      imgUrl: itproject1,
+    },
+    {
+      title: "Custom Project 2",
+      description: "Description for custom project 2.",
+      imgUrl: placeholder, // Replace with actual image
+    },
+    // Add more custom projects here
+  ];
+
+  const projectsTab2 = [
     {
       title: "MGTumbling",
       description:
         "MGTumbling is a gymnastics club located in West Haven, Utah. I created this website for them to help them get more clients and to help them grow their business. This was the first website I have ever built and I used WIX to create this website.",
       imgUrl: project1,
-      webLink: "https://www.mgtumbling.net"
+      webLink: "https://www.mgtumbling.net",
     },
     {
       title: "MixStream",
@@ -31,30 +47,31 @@ export const Projects = () => {
       description:
         "TypeNinja was my second group project in the coding boot camp at the University of Utah. This application is a WPM typing game where developers can practice their typing accuracy and speed with words that are all generated at random.",
       imgUrl: project3,
-      webLink: "https://typeninja.herokuapp.com",
       gitLink: "https://github.com/MasynNay/TypeNinja",
     },
     {
       title: "SemiSnitch",
-      description: "SemiSnitch was my third and final group project in the coding boot camp at the University of Utah. This application is an all-in-one solution for optimizing semi-truck operations.",
+      description:
+        "SemiSnitch was my third and final group project in the coding boot camp at the University of Utah. This application is an all-in-one solution for optimizing semi-truck operations.",
       imgUrl: project4,
-      webLink: "https://infinite-meadow-71565.herokuapp.com",
       gitLink: "https://github.com/greg4949/Semi-Snitch",
     },
     {
       title: "Placeholder #5",
       description: "Placeholder #5",
       imgUrl: placeholder,
+      // No links
     },
     {
       title: "Placeholder #6",
       description: "Placeholder #6",
       imgUrl: placeholder,
+      // No links
     },
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>
@@ -67,8 +84,10 @@ export const Projects = () => {
                 >
                   <h2>Portfolio</h2>
                   <p>
-                    This is a quick glance of my portfolio and the work that I
-                    have done this far.
+                    Here’s a glimpse into my portfolio, highlighting some
+                    accomplishments from working in IT and from coding. This
+                    section showcases some of my IT experience and coding skills
+                    coming together to drive creative results.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
@@ -77,13 +96,17 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                        <Nav.Link eventKey="first">IT Accomplishments</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                        <Nav.Link eventKey="second">
+                          Coding Accomplishments
+                        </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                        <Nav.Link eventKey="third">
+                          First Coding Project
+                        </Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -94,50 +117,30 @@ export const Projects = () => {
                     >
                       <Tab.Pane eventKey="first">
                         <Row>
-                          {projects.map((project, index) => {
-                            return <ProjectCard key={index} {...project} />;
-                          })}
+                          {projectsTab1.map((project, index) => (
+                            <ProjectCard key={index} {...project} />
+                          ))}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
+                        <Row>
+                          {projectsTab2.map((project, index) => (
+                            <ProjectCard key={index} {...project} />
+                          ))}
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="third">
                         <p>
                           This was my very first coding project. I wanted to be
-                          able have my betta fish, Vendetta, play a Pokemon
+                          able to have my betta fish, Vendetta, play a Pokemon
                           game. I got my inspiration from "FishPlaysPokemon"
                           that was on Twitch.tv in 2014. This was a very fun
                           project to work on and a great starting point for a
-                          coders journey! The video provided were the only
+                          coder's journey! The video provided were the only
                           remaining clips I could find of this project. I hope
                           you enjoy.
                         </p>
                         <video src={video} controls></video>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="third">
-                        <p>
-                          I don't really have anything else to put here. For a
-                          little entertainment, here is a game of Pokemon Ruby.
-                          Enjoy! (Mobile is only available in landscape mode)
-                        </p>
-                        <div className="game col-12">
-                          <iframe
-                            src="https://www.retrogames.cc/embed/26523-pokemon-ruby-e-independent.html"
-                            title="game"
-                            className="game-iframe"
-                            width="600"
-                            height="450"
-                            frameborder="no"
-                            allowfullscreen="true"
-                            webkitallowfullscreen="true"
-                            mozallowfullscreen="true"
-                          ></iframe>
-                          <div class="gametext">
-                            <h1 class="gametext">Controls</h1>
-                            <h1 class="gametext">A Button = Z</h1>
-                            <h1 class="gametext">B Button = X</h1>
-                            <h1 class="gametext">Select = Shift</h1>
-                            <h1 class="gametext">Start = Enter</h1>
-                          </div>
-                        </div>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>

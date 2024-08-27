@@ -11,7 +11,7 @@ import ResumePage from "./pages/ResumePage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/React-Portfolio">
       <div className="App">
         <NavBar />
         <Routes>

@@ -105,7 +105,7 @@ export const Projects = () => {
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="third">
-                          First Coding Project
+                          First Project
                         </Nav.Link>
                       </Nav.Item>
                     </Nav>

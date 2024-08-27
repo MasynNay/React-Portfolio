@@ -9,6 +9,8 @@ import video from "../assets/images/video1.mp4";
 import placeholder from "../assets/images/placeholder.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
+import { Link } from "react-router-dom";
+import gameIcon from "../assets/images/game-icon.svg"; // Import your SVG icon
 
 export const Projects = () => {
   const projectsTab1 = [
@@ -99,14 +101,10 @@ export const Projects = () => {
                         <Nav.Link eventKey="first">IT</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">
-                          Coding
-                        </Nav.Link>
+                        <Nav.Link eventKey="second">Coding</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">
-                          First Project
-                        </Nav.Link>
+                        <Nav.Link eventKey="third">First Project</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -141,6 +139,10 @@ export const Projects = () => {
                           you enjoy.
                         </p>
                         <video src={video} controls></video>
+                        {/* Button to navigate to the new page */}
+                        <Link to="/game" className="icon-link">
+                          <img src={gameIcon} alt="Game" />
+                        </Link>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>

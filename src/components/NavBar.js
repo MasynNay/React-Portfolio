@@ -26,7 +26,10 @@ export const NavBar = () => {
   };
 
   const renderNavLinks = () => {
-    if (location.pathname === "/resume") {
+    const currentPath = location.pathname;
+    
+    // Determine the links to render based on the current path
+    if (currentPath === "/resume" || currentPath === "/game") {
       return (
         <>
           <Nav.Link

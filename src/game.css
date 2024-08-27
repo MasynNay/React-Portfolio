@@ -1,0 +1,14 @@
+/* Add this to your CSS file */
+.page-padding {
+  padding-top: 40px;  /* Adjust the value as needed */
+  padding-bottom: 40px; /* Adjust the value as needed */
+}
+
+/* Optional: Add more specific styles if needed */
+.page-padding-top {
+  padding-top: 40px;  /* Adjust the value as needed */
+}
+
+.page-padding-bottom {
+  padding-bottom: 40px; /* Adjust the value as needed */
+}

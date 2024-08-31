@@ -21,7 +21,7 @@ const ResumePage = () => {
               <br />
               <b>Website:</b>{" "}
               <a
-                href="https://masynnay.github.io/React-Portfolio/"
+                href="https://masynnay.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >

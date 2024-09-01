@@ -2,7 +2,7 @@
   "name": "React-Portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://masynnay.com",
+  "homepage": "http://masynnay.com/React-Portfolio",
   "dependencies": {
     "@react-pdf/renderer": "^3.4.4",
     "@testing-library/jest-dom": "^5.16.4",

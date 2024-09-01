@@ -585,7 +585,11 @@ video {
 /************ Projects Css ************/
 .contact {
   background-image: url(./assets/images/banner2.png);
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
   padding: 75px 0;
+  width: 100%; /* Ensure the width is 100% */
 }
 
 .contact img {

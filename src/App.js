@@ -12,7 +12,7 @@ import Game from "./pages/Game"; // Import the Game component
 
 function App() {
   return (
-    <Router basename="/React-Portfolio">
+    <Router>
       <div className="App">
         <NavBar />
         <Routes>

@@ -11,7 +11,7 @@ export const Footer = () => {
         <Row className="align-items-center">
           <Col size={12} sm={6}>
             <div className="footerlogo">
-              <a href="/React-Portfolio">
+              <a href="/">
                 <img src={logo2} alt="Logo2" />
               </a>
             </div>
